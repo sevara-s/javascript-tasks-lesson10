@@ -1,0 +1,27 @@
+In javascript objects are used to store key and values about one object. 
+Objects are variables too. But objects can contain many values.
+
+1)Objects literal--> the most common way to create objects 
+ex: 
+   let person = {
+    car_nam ="BMW",
+    car_color="black"
+   }
+2)Object Constructor 
+  let person = new Object();
+  person.name ="John";
+  person.age = 40;
+
+
+
+
+Object constructor funciton is used to create many objects at the same time.
+MOst of the time the name of the function is going to start with upper-case letter,
+
+Javascript objects methods:
+const obj = {name:Sevara, age:17; job:student}
+1) delete obj.name;--> with the help of delete method in javascript we can delete the properties from the object,
+2)Object.keys(obj);--> this methods returns the array of key ifrom object.
+3)Object.value(obj)-->returns the array of values from object.
+4)Object.entries(obj);-->returns key-value pairs in list.
+5)
